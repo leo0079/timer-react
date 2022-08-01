@@ -8,31 +8,41 @@
   body {
     height: 100%;
   }
-  
+
+  img {
+    margin-top: 60px;
+    height: 200px;
+  }
+
   .app {
-    background-color: #D30C19;
+    /*background-color: #D30C19;*/
     color: white;
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     text-align: center;
+    /* Created with https://www.css-gradient.com */
+    background: #FF0101;
+    background: -webkit-linear-gradient(bottom, #FF0101, #780303);
+    background: -moz-linear-gradient(bottom, #FF0101, #780303);
+    background: linear-gradient(to top, #FF0101, #780303);
   }
   
   .header {
     font-size: calc(20px + 2vmin);
     line-height: 2;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
   }
   
   .container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 50%;
     justify-content: center;
   }
   
   .timer {
-    background-color: rgba(255, 255, 255, 0.1);
+    /*background-color: rgba(255, 255, 255, 0.1);*/
     display: inline-block;
     margin-top: 25px;
     padding: 10px;
