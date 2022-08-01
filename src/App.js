@@ -1,7 +1,6 @@
 import './App.css';
 import './Css.css';
 import Timer from './Timer';
-import ReactDOM from 'react-dom';
 import Logo from './unnamed.png';
 
   const App = () => {
