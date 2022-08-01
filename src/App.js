@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom';
       <div className="app">
         <div className="container">
           <h1 className="header">
-            O próximo Ano Novo é em:
+            Dias até Lula ser reeleito:
           </h1>
           <Timer/>
         </div>

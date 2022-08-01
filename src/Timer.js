@@ -10,7 +10,7 @@ const Timer = () => {
     const [minutos, setMinutos] = useState(0);
     const [segundos, setSegundos] = useState(0);
     
-    const finalizar = "December, 31, 2022";
+    const finalizar = "Juanuary, 1, 2023";
 
     const getTempo = () => {
         const tempo = Date.parse(finalizar) - Date.now();
