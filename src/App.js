@@ -11,7 +11,7 @@ import Logo from './unnamed.png';
         </div>
         <div className="container">
           <h1 className="header">
-            Dias até Lula ser reeleito:
+            Há quanto tempo Lula foi reeleito desde 2022?
           </h1>
           <Timer/>
         </div>
